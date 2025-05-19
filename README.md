@@ -1,7 +1,6 @@
-# House-Price-Prediction
-# House Price Prediction Model
+# 🏠 House Price Prediction Model
 
-## Overview
+## Overview:
 
 This project implements a machine learning model to predict house prices based on various property features. The model uses XGBoost (Extreme Gradient Boosting) with careful feature engineering and preprocessing to achieve accurate price predictions.
 
@@ -46,26 +45,8 @@ The pipeline consists of:
 
 The model achieves the following metrics on the test set:
 - **R² Score**: 0.6724
-- **Mean Squared Error**:
-
-## Usage
-
-To use the model:
-
-1. Clone the repository
-2. Install requirements: `pip install pandas scikit-learn xgboost`
-3. Place your data in a file named `data.csv`available in archive.zip
-4. Run the script: `python house_price_prediction.py`
-
-Example prediction:
-```python
-test_sample = pd.DataFrame({
-    'bedrooms': [3],
-    'bathrooms': [2],
-    # ... other features ...
-})
-price = model.predict(test_sample)
-```
+- **Mean Squared Error**: 27685176236.743435
+- **Mean Absolute Error**: 100126.8193048326
 
 ## Requirements
 
@@ -82,3 +63,4 @@ price = model.predict(test_sample)
 - Address potential data quality issues
 - Add more comprehensive evaluation metrics
 
+  
